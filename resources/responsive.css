@@ -1,0 +1,453 @@
+
+
+
+@media only screen and (min-width: 1601px) {
+	#feature { height: 700px; }
+	#feature article { height: 700px; }
+    #feature ul.prevnext { top: 620px; }
+    #feature ul.pips { top: 660px; }
+	body.give #intro {
+		height: 600px;
+	}
+}
+
+
+@media screen and (max-width: 959px) {
+
+	body, body.home { margin-top: 40px; }
+
+	header {
+		background-color: #181818;
+		position: fixed;
+		top: 0px;
+		width: 100%;
+		height: 40px;
+		z-index: 11;
+	}
+
+	header #site_name h1 { margin: 0px; }
+
+	header #site_name h1 a {
+		position: absolute;
+		display: block;
+		top: 0px;
+		left: auto;
+		right: 45px;
+		width: 180px;
+		height: 50px;
+		text-indent: -9999px;
+		background: url(/images/ECE-ILLINOIS-oneline.png) no-repeat 0px 8px;
+	}
+
+	header #imark a {
+		position: absolute;
+		display: block;
+		top: 2px;
+		right: 2px;
+		width: 26px;
+		height: 36px;
+		text-indent: -9999px;
+		background: url(/images/imark.png) no-repeat;
+		background-size: contain;
+	}
+
+	/* main navigation */
+	nav#mainnav { display: none; }
+
+	#mobile-nav a {
+		display: block;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		background-image: url(/images/mobile-nav-icon.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		width: 45px;
+		height: 40px;
+		text-indent: -99999px;
+	}
+
+	nav#mobilenav {
+		display: block;
+		position: fixed;
+		width: 300px;
+		height: 100%;
+		left: -300px;
+		top: 0px;
+		z-index: 10;
+		padding: 40px 0px 40px 0px;
+		margin: 0px;
+		overflow: auto;
+		transition: left ease-in-out 0.6s;
+		background-color: #2C3F4D;
+		box-sizing: border-box;
+	}
+
+    nav#mobilenav.on { left: 0px; }
+
+	nav#mobilenav ul {
+		background-color: #181818;
+		border-top: 1px solid #ffffff;
+	}
+
+	nav#mobilenav ul li { border-bottom: 1px solid #ffffff; }
+	nav#mobilenav ul li ul li:last-child { border-bottom: none; }
+	nav#mobilenav ul li a {
+		color: #ffffff;
+		padding: 8px 10px;
+		width: 100%;
+		display: block;
+		box-sizing: border-box;
+	}
+
+	nav#mobilenav ul li a:hover { background-color: rgba(0, 0, 0, 0.2); }
+	nav#mobilenav ul li ul { background-color: #2C3F4D; }
+	nav#mobilenav ul li ul li a { padding: 8px 20px; }
+	nav#mobilenav ul li ul li ul { background-color: #1F4959; }
+	nav#mobilenav ul li ul li ul li a { padding: 8px 40px; }
+
+
+	.container {
+		width: 100% !important;
+		padding: 40px 10px 40px 10px !important;
+		box-sizing: border-box;
+	}
+
+	header .container, footer .container, nav#mainnav .container  {
+		padding: 0px !important;
+	}
+
+	footer { position: relative; }
+	footer #footernav { display: none; }
+	#gototop { display: none; }
+
+	.wide {
+		width: 100% !important;
+		box-sizing: border-box;
+	}
+
+	.medium {
+		width: 50%;
+		box-sizing: border-box;
+		margin: 0px;
+		padding: 0px 10px 20px 10px;
+	}
+
+	.golinks .gbg, .golinks .obg { display: none;
+	}
+
+
+	.section.golinks .container {
+		padding: 0px !important;
+		display:inline-block;
+	}
+
+	nav.secnav ul li ul li a { font-size: 0.9em; }
+	.section .container nav.secnav ul li { width: 180px; }
+	nav.secnav .wide {
+		width: 400px !important;
+		box-sizing: border-box;
+		margin: 0px;
+	}
+
+
+	#feature { height: 350px; }
+    #feature .container { padding: 0px !important; }
+	#feature article { height: 350px; }
+	#feature article a { height: 350px; }
+	#feature article .overlay_container { font-size: 1.8em; width: 50%; top: 50px; }
+	#feature ul.prevnext { top: 280px; }
+	#feature ul.prevnext li a { height: 30px; width: 30px; }
+	#feature ul.pips { top: 305px; }
+	#feature article.leaving.right .overlay_container { right: 0px; top: -100px; }
+
+	.cal_nav { float: none; width: 100%; display: inline-block; margin: 0px 0px 10px 0px; }
+	.cal_nav ul li { width: auto; float: left; }
+	.cal_nav ul li a { padding: 3px 10px; margin-right: 5px; }
+
+	#promo-impact .container { width: 100%;  height: 330px; background-size: contain; background-position: auto bottom; }
+	#promo-impact.section h2 { font-size: 6em; top: 60px; }
+	#promo-impact.section h3 { font-size: 1.95em; left: auto; right: 20px; top: 180px; }
+	#promo-impact.section a.button { left: auto; right: 40px; top: 240px; }
+
+	#promo-resonance .container { padding-left: 60% !important; height: 370px; background-size: 55% 100%; }
+
+	#promo-visit { height: 340px; background-position: left; }
+	#promo-visit .container { padding-left: 50% !important; }
+	#promo-visit h2 { font-size: 2em; margin: 0px 0px 20px 0px; }
+	#promo-visit p { font-size: 1.3em; margin: 0px 0px 20px 0px; }
+
+	#promo-why-ece .container { padding-right: 45% !important; background-position: right center; background-size: 40%; height: auto;}
+	#promo-why-ece .button {
+		float: none;
+	}
+
+	#promo-graduate-research .container .inner { width: 40%; margin-left: 415px;	}
+
+	#promo-seminars .container { padding-right: 40% !important; height: auto; display: inline-block; }
+
+	#promo-building .container { padding-left: 300px !important; background-size: 280px auto; background-position: left 47px; height: auto; display: inline-block; }
+
+	#givenow article .fundname, #givenow article .funddesc, #givenow article .fundfield { width: auto; float: none; }
+
+	#promo-apply .container { height: 150px; }
+
+	#promo-upgrade-thankyou .fleft.narrow { width: 33% !important; margin: 0px; padding: 7px 20px 0px 0px; box-sizing: border-box; }
+	#promo-upgrade-thankyou .fleft.wide { width: 67% !important; margin: 0px; }
+	#promo-upgrade-thankyou .fleft.wide img { width: 100%; }
+
+	#promo-building-video-tour .fleft.narrow { width: 33% !important; margin: 0px; padding: 7px 20px 0px 0px; box-sizing: border-box; }
+	#promo-building-video-tour .fleft.wide { width: 67% !important; margin: 0px; }
+	#promo-building-video-tour .fleft.wide img { width: 100%; }
+
+	#promo-open-lab .container { background-size: cover; background-position: center center; height: auto; display: }
+	#promo-open-lab .container p, #promo-open-lab .container h2 { background-color: rgba(247, 247, 247, 0.8); margin: 0px; padding: 10px 10px 20px 10px; }
+
+	#promo-supply-center .container { background-size: cover; background-position: center center; height: auto; display: }
+	#promo-supply-center .container p, #promo-supply-center .container h2 { background-color: rgba(247, 247, 247, 0.8); margin: 0px; padding: 10px 10px 20px 10px; }
+
+	#promo-why-ece-majors .container { background-size: cover; background-position: center center; height: auto; display: }
+	#promo-why-ece-majors .container .inner { background-color: rgba(247, 247, 247, 0.8); color: #333333; margin: 0px; padding: 10px 10px 20px 10px; }
+
+	body.give.stories #stories article { width: 100%; position: relative; display: inline-block; }
+	body.give.stories article .container { padding: 10px !important; }
+	body.give.stories article .fleft.narrow { width: 33% !important; margin: 0px; padding: 7px 20px 0px 0px; box-sizing: border-box; }
+	body.give.stories article .fleft.narrow img { width: 100%; }
+	body.give.stories article .fleft.wide { width: 67% !important; margin: 0px; }
+	body.give.stories .gmark div.slogan { font-size: 1.4em; }
+
+	#contacts .medium { box-sizing: content-box; }
+
+	.flowchart { width: 100%; overflow: auto; }
+	table { width: 100%; overflow: auto; }
+}
+
+/* ipad height */
+@media screen and (max-width: 768px)
+{
+	fieldset .fleft { float: none; }
+	fieldset input[type=text], fieldset textarea { width: 100% !important; }
+	h1 { font-size: 2em; }
+	h2 { font-size: 1.7em; }
+	h3 { font-size: 1.2em; }
+	h4 { font-size: 1.0em; }
+
+	.thumbtile .newslist article { width: 180px; height: 240px; background-size: 180px auto; margin: 0px 5px 10px 0px; 	}
+	.thumbtile .newslist article a .title { height: 60px; font-size: 0.9em; padding: 4px; }
+
+	#promo-apply .container { height: auto; }
+	#promo-apply .container h2, #promo-apply p { float: none; margin: 0px 0px 20px 0px; text-align: center; width: auto; }
+
+	#promo-upgrade-thankyou .fleft.narrow { width: 100% !important; float: none; }
+	#promo-upgrade-thankyou .fleft.wide { width: 100% !important; float: none; }
+
+	#promo-building-video-tour .fleft.narrow { width: 100% !important; float: none; }
+	#promo-building-video-tour .fleft.wide { width: 100% !important; float: none; }
+
+	body.give.stories .gmark div.logo{ right: 69.5%; }
+	body.give.stories .gmark div.slogan{ width: 75%; box-sizing: border-box; }
+
+	body.giving-opportunities article {
+		padding-left: 0px;
+	}
+	body.giving-opportunities article .fundname { width: 75%; }
+	body.giving-opportunities article .fundfield  { width: 24%;  }
+	body.giving-opportunities article .fundfield input[type=submit] { width: 80px;  }
+
+	.dirprofile .roles .role {
+		float: none;
+	}
+
+}
+
+
+/* less than ipad portrait width*/
+@media screen and (max-width: 767px) {
+	nav.secnav ul li ul li a { font-size: 0.9em; }
+	.section .container nav.secnav ul li { width: 180px; }
+	nav.secnav .narrow { width: 230px; }
+	nav.secnav .wide { width: 400px !important; box-sizing: border-box; margin: 0px; padding: 0px 20px 0px 0px !important; }
+
+	body.give #intro { height: 400px; }
+
+	body.give.stories .section.orange h1 { font-size: 3em; }
+
+}
+
+/* iphone 6 plus height */
+@media screen and (max-width: 736px) {
+	.thumbtile .newslist article { width: 234px; height: 294px; background-size: 234px auto; margin: 0px 5px 10px 0px; 	}
+	body.give #intro .overlay_container { top: 30px; }
+
+	#promo-graduate-research .container { background-size: cover; background-position: center center; height: auto; display: }
+	#promo-graduate-research .container .inner { background-color: rgba(247, 247, 247, 0.8); color: #333333; margin: 0px; padding: 10px 10px 20px 10px; width: 100%; box-sizing: border-box;}
+
+}
+
+@media screen and (max-width: 735px) {
+	#secnav .container { padding: 10px !important; }
+	.section .container nav.secnav ul { display: none; }
+	.section .container nav.secnav .fleft { margin: 0px; }
+	.section .container nav.secnav p { margin: 0px 0px 0px 0px; }
+	.section .container nav.secnav .right { text-align: left; }
+	.section.golinks { font-size: 0.7em; height: 57px; }
+	.section.golinks .container .grey { padding: 15px; }
+	.section.golinks .container .grey, .section.golinks .container .orange { height: 55px;  }
+	.section.golinks .container .orange a { padding: 15px; }
+
+}
+
+/* iphone 5 height */
+@media screen and (max-width: 568px) {
+	.fright,
+	.fleft,
+	.medium,
+	.narrow { width: 100% !important; margin: 0px 0px 20px 0px; }
+	.small-hide { display:none; }
+	.photo img { width: 100% !important; }
+	.button { box-sizing: border-box; text-align: center; }
+	.inner { background-color: rgba(247, 247, 247, 0.65); padding: 10px; }
+
+	.thumbtile .newslist article { width: 190px; height: 250px; background-size: 190px auto; }
+
+	.section .container nav.secnav .fleft { padding: 0px !important; }
+	.section .container nav.secnav ul { display: none; }
+
+	.section.genius { font-size: 1em; margin-top: 140px;}
+	.section.genius .container { padding-top: 50px;}
+	.genius_logo {
+		height: 100px;
+		top: -50px;
+		background-size: contain;
+		background-position: center 0px;
+	}
+
+	body.directory.profile .section.title .container .callout {
+		position: relative;
+		margin: 0px 0px 40px 10px;
+		top: auto;
+	}
+
+
+	#feature { height: 330px; }
+    #feature .container { padding: 0px !important; }
+	#feature article { height: 230px; }
+	#feature article a { height: 230px; }
+		#feature article .overlay_container,
+		#feature article.right .overlay_container {
+			font-size: 1.5em;
+			width: 100%;
+			height: 100px;
+			top: 230px;
+			padding: 5px;
+			text-align: left;
+			box-sizing: border-box;
+		}
+	#feature article .overlay { width: auto; float: none;}
+	#feature ul.prevnext { display: none; }
+	#feature ul.pips { top: 205px; }
+	#feature article.leaving.right .overlay_container { right: 0px; top: -100px; }
+	#feature ul.pips li a { width: 30px;}
+
+	body.give #intro .overlay_container { width: auto; }
+	body.give.stories article .fleft.wide { float: none; width: 100% !important; }
+	body.give.stories .gmark div.slogan { font-size: 1.1em; }
+
+	.cal_nav ul li { width: 100%; float: left; }
+	#cal_list { margin: 0px 0px 10px 0px; width: 100%; }
+	#cal_list article { height: auto; }
+
+	#contacts .fleft, #contacts .fleft.medium { padding: 0px 0px 20px 0px; background-position: 0px 30px; height: auto; }
+	#contacts .fleft h3 { margin-bottom: 190px; }
+
+	#promo-launch { background-size: contain; height: auto; }
+	#promo-launch .button { margin-top: 90px; }
+
+	#promo-impact .container { background-position: center bottom; }
+	#promo-impact.section h2 { font-size: 5em; top: 30px; width: 190px; left: 10px; }
+	#promo-impact.section h3 { font-size: 1.5em; left: auto; right: 0px; top: 28px; width: 150px; }
+	#promo-impact.section a.button { left: auto; right: auto; top: 240px;}
+
+	#promo-why-ece .container { padding-right: 10px !important; background-position: right center; background-size: cover; height: auto;  }
+
+	#promo-facebook { height: 130px;}
+
+	#promo-visit { height: 340px; background-position: left; background-size: cover; }
+	#promo-visit .container { padding-left: 10px !important; }
+	#promo-visit h2 { font-size: 2em; margin: 0px 0px 20px 0px; }
+	#promo-visit p { font-size: 1.3em; margin: 0px 0px 20px 0px; }
+
+	#promo-building .container { padding: 40px 10px 40px 10px !important;  background-size: cover;  background-color: rgba(247, 247, 247, 0.65); background-position: center center; }
+
+	body.give.stories .section.orange.top { height: 350px; }
+	body.give.stories .section.orange h1 { font-size: 2.5em; }
+	body.give.stories .section.orange p { font-size: 1.25em; }
+	body.give .gmark div.slogan { font-size: 1.25em; }
+	body.giving-opportunities article { font-size: 0.8em; }
+	body.giving-opportunities article .fundname { padding: 7px 12px; }
+}
+/* iphone 6 plus width */
+@media screen and (max-width: 414px) {
+
+	body.give .gmark { bottom: 90px; width: 100%; padding: 0px;}
+	body.give .gmark div.logo { width: 100%; height: 60px; right: auto; background-position: center 0px; background-size: contain;}
+	body.give .gmark div.slogan { font-size: 1em; width: 100%; top: 41px; right: auto;}
+
+	body.give.stories .section.orange.top { height: auto; }
+	body.give.stories .section.orange h1 { font-size: 1.75em; }
+	body.give.stories .section.orange p { font-size: 1em; }
+	body.give.stories { bottom: 0px; width: 100%; padding: 0px;}
+	body.give.stories .gmark div.slogan {
+		width: 100%;
+		bottom: auto;
+		top: 125px;
+		padding: 10px;
+		position: relative;
+	}
+
+	body.give #intro .overlay_container { font-size: 0.8em; }
+	body.give #intro .overlay { width: 200px; }
+	.section.golinks { font-size: 0.5em; }
+	.section.golinks .container .grey, .section.golinks .container .orange a { padding: 19px 10px 18px 20px; }
+	body.giving-opportunities article .fundname { height: 55px; }
+}
+
+/* iphone 6 width */
+@media screen and (max-width: 375px) {
+	.thumbtile .newslist article { width: 170px; height: 230px; background-size: 170px auto; }
+
+	body.give.stories article .fleft.narrow {
+		float: none;
+		width: 100% !important;
+	}
+	.section .container nav.secnav p { display: none; }
+	.section.golinks .container .grey { width: 80% }
+	.section.golinks .container .orange { width: 20% }
+	.section.golinks { font-size: 0.45em; }
+
+	body.giving-opportunities article .fundname { height: auto; width: 100%; margin-bottom: 2px; }
+	body.giving-opportunities article .fundfield {
+		width: 100px;
+		float: right;
+	}
+
+	body.directory.profile .section.title .container .callout {
+		width: 100%;
+		box-sizing: border-box;
+
+	}
+		body.directory.profile .section.title .container .callout .photo_image {
+			height: auto;
+		}
+}
+
+/* iphone 5 width */
+@media screen and (max-width: 320px) {
+	.thumbtile .newslist article { width: 145px; height: 203px;  background-size: 170px auto; font-size: 0.75em; }
+
+	body.give.stories .section.orange h1 { font-size: 1.5em; }
+
+	.section.golinks .container .grey a {
+		margin-left: 5px;
+	}
+}
